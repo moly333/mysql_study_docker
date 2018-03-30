@@ -13,4 +13,4 @@ chmod 700 start.sh
 mysql -u root -h 127.0.0.1 -P 3306 -p
 
 # Uninstall
-docker-comopse kill && docker-compose rm
+docker-compose kill && docker-compose rm
